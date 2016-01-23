@@ -16,7 +16,7 @@ function init()
   document.getElementById("challengesHere").appendChild(btn);
 
 }
-selectAutoPortalSettings()
+function selectAutoPortalSettings()
 {
 //test
 document.getElementById("specificChallengeDescription").innerHTML = '<div class="noselect pointer challengeThing thing " id="challengeElectricity" onclick="selectChallenge("Electricity")"><span class="thingName">Electricity</span></div>';
