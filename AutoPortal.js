@@ -13,5 +13,5 @@ function autoPortal()
         activateClicked();
         activatePortal();
     }
-    setTimeout(autoPortal, 2000);
+    setTimeout(autoPortal, 20);
 }
