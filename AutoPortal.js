@@ -4,7 +4,7 @@ setTimeout(autoPortal, 2000);
 
 function autoPortal()
 {
-    console.log("got here");
+    //console.log("got here");
     if(game.global.challengeActive === "")
     {
         portalClicked();
@@ -13,5 +13,5 @@ function autoPortal()
         activateClicked();
         activatePortal();
     }
-    setTimeout(autoPortal, 20);
+    setTimeout(autoPortal, 2000);
 }
