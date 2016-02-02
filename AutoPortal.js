@@ -15,7 +15,7 @@ function autoPortal()
         chal_fin=false;
         portalClicked();
         buyPortalUpgrade('Carpentry');
-        selectChallenge('Electricity');
+        selectChallenge('Crushed');
         activateClicked();
         activatePortal();
     }
